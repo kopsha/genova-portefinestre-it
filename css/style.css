@@ -1,0 +1,176 @@
+html {
+	position: relative;
+    min-height: 100%;
+}
+body{
+	font-family: anke;
+}
+.jumbotron {
+	position: relative;
+	margin-bottom: 0px;
+    background-image: url(../img/jumbotron-bkg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    height: 90vh;
+}
+
+#jumbotron-content{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#header-text{
+	text-align: right;
+	color: #428dd1;
+}
+#logo{
+	margin-top: 1vh;
+	height: 15vh;
+	margin-left: 4vw;
+}
+
+.nav a{
+	font-size: 2vw;
+	color: black !important;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+	 background-color: #428dd1;
+}
+.navbar-nav > li > .dropdown-menu{
+    background-color: #428dd1;
+}
+.navbar{
+	background-color: #428dd1;
+}
+.navbar-default .navbar-brand{
+	color: white !important;
+}
+#submenu{
+	background-color: rgba(66,141,209,.6);
+}
+.submenu-photo{
+	
+}
+#window-products{
+	margin-top: 30px;
+}
+.window-product{
+	background-color: rgba(85,154,170,.5);
+   border: 5px solid #73AD21;
+	border-color: white;
+}
+
+.row-photos{
+	padding-left: 3vw;
+	margin-top: 4vh;
+}
+#footer {
+	background-color: #6d8491;
+	border-top: 1px solid #EEEEEE;	
+    left: 0;
+    bottom: 0;
+    width: 100%;	
+}
+#logo-footer{
+	float: right;
+	padding: 45px;
+	width: 75%;
+}
+.submenu-text{
+	color: white;
+	max-width: 9vw;
+	font-size: 15px;
+}
+.group{
+	margin-left: 3vw;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+.navbar {
+    margin-bottom: 0;
+}
+p  {
+	font-size: 32px;
+}
+
+.image-animation:hover {
+-webkit-transform: translate(20px,-50px);
+transform: translate(20px,-50px);
+opacity: 0.8;
+}
+.submenu-photo:hover {
+-webkit-transform: translate(20px,-50px);
+transform: translate(20px,-50px);
+}
+.image-animation {
+opacity: 1;
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+#garanzia-title-box{
+	background-color: rgb(66,141,209);
+	float: none;
+	top: 3vh;
+	min-height: 8vh;
+}
+#garanzia-title-box h1{
+	color: white;
+	text-shadow: 1px 0px 4px rgba(0,0,0,.9);
+}
+
+#garanzia-container{
+	background-color: rgba(109,132,145,.25);
+    background: -webkit-linear-gradient(rgba(109,132,145,.25), white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(109,132,145,.25), white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(109,132,145,.25), white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(109,132,145,.25), white); /* Standard syntax */
+}
+#garanzia-content{
+	position: relative;
+	top: 5vh;
+	margin-bottom: 70vh;
+}
+#garanzia-content p{
+	color: #428dd1;
+	text-shadow: 1px 0px 4px rgba(0,0,0,.2);
+}
+
+#contatti-title-box{
+	background-color: rgb(66,141,209);
+	float: none;
+	top: 3vh;
+	min-height: 8vh;
+}
+#contatti-title-box h1{
+	color: white;
+	text-shadow: 1px 0px 4px rgba(0,0,0,.9);
+}
+
+
+#contatti-container{
+	background-color: rgba(109,132,145,.25);
+    background: -webkit-linear-gradient(rgba(109,132,145,.25), white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(109,132,145,.25), white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(109,132,145,.25), white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(109,132,145,.25), white); /* Standard syntax */
+    position: relative;
+	margin-bottom: 60vh;
+}
+
+#contatti-container p{
+	color: #428dd1;
+	text-shadow: 1px 0px 4px rgba(0,0,0,.2);
+}
+.contatti-content{
+	position: relative;
+	top: 20vh;
+}
+ #map {
+	width: 20vw;
+	height: 40vh;
+}
