@@ -2,18 +2,78 @@ html {
 	position: relative;
     min-height: 100%;
 }
-body{
-	font-family: anke;
+
+body {
+	font-family: roboto;
 }
-.jumbotron {
-	position: relative;
-	margin-bottom: 0px;
-    background-image: url(../img/jumbotron-bkg.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    color: white;
-    text-shadow: black 0.3em 0.3em 0.3em;
-    height: 90vh;
+
+.vcenter {
+    vertical-align: middle;
+}
+
+.icon-earth {
+	display: inline-block;
+	background: url("../img/icon-earth-16.png") no-repeat top left;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-phone {
+	display: inline-block;
+	background: url("../img/icon-telephone-16.png") no-repeat top left;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-facebook {
+	display: inline-block;
+	background: url("../img/icon-facebook-16.png") no-repeat top left;
+	width: 16px;
+	height: 16px;
+}
+
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.container-fluid .jumbotron {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 13px;
+	padding-right: 13px;
+
+	background-color: #434752;
+	color: white;
+	border-radius: 0;
+}
+
+.jumbotron p{
+	font-size: 15px;
+	vertical-align: middle;
+	margin-bottom: 2px;
+}
+
+.header-image {
+	background-image: url(../img/jumbotron-bkg.jpg);
+	background-size: cover;
+	height: 256px;
+}
+
+.menubar {
+	height: 30px;
+}
+
+.navbar {
+	background-color: #292929;
+	border-radius: 0;
+	border-color: #292929;
+	height: 60px;
+}
+
+.navbar li a {
+	color: white !important;
+	font-size: 22px;
 }
 
 #header-text{
@@ -28,12 +88,7 @@ body{
 	margin-left: 4vw;
 }
 
-.nav a{
-	font-size: 24px;
-	color: black !important;
-}
-
-.navbar-nav > li > .dropdown-menu{
+.navbar-nav > li > .dropdown-menu {
     background-color: rgba(255,255,255,.8);
 }
 
@@ -74,12 +129,6 @@ body{
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
-}
-.navbar {
-    margin-bottom: 0;
-}
-p  {
-	font-size: 32px;
 }
 
 #garanzia-title-box{
