@@ -19,21 +19,21 @@ body {
 	display: inline-block;
 	background: url("../img/logo-color.png") no-repeat;
 	background-position: left bottom;
-	width: 102px;
-	height: 115px;
-}
-
-.icon-earth {
-	display: inline-block;
-	background: url("../img/icon-earth-16.png") no-repeat;
-	background-position: left bottom;
-	width: 16px;
-	height: 17px;
+	width: 244px;
+	height: 105px;
 }
 
 .icon-phone {
 	display: inline-block;
 	background: url("../img/icon-telephone-16.png") no-repeat;
+	background-position: left bottom;
+	width: 16px;
+	height: 17px;
+}
+
+.icon-earth {
+	display: inline-block;
+	background: url("../img/icon-earth-16.png") no-repeat;
 	background-position: left bottom;
 	width: 16px;
 	height: 17px;
