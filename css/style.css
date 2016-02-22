@@ -3,33 +3,40 @@ html {
     min-height: 100%;
 }
 
-body {
-	font-family: roboto;
+@font-face {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Condensed"), local("RobotoCondensed-Regular"), url("http://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsDAdhzWOYhqHvOZMRGaEyPo.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
-.vcenter {
-    vertical-align: middle;
+body {
+	font-family: "Roboto Condensed";
+}
+
+.logo-color {
+	display: inline-block;
+	background: url("../img/logo-color.png") no-repeat;
+	background-position: left bottom;
+	width: 102px;
+	height: 115px;
 }
 
 .icon-earth {
 	display: inline-block;
-	background: url("../img/icon-earth-16.png") no-repeat top left;
+	background: url("../img/icon-earth-16.png") no-repeat;
+	background-position: left bottom;
 	width: 16px;
-	height: 16px;
+	height: 17px;
 }
 
 .icon-phone {
 	display: inline-block;
-	background: url("../img/icon-telephone-16.png") no-repeat top left;
+	background: url("../img/icon-telephone-16.png") no-repeat;
+	background-position: left bottom;
 	width: 16px;
-	height: 16px;
-}
-
-.icon-facebook {
-	display: inline-block;
-	background: url("../img/icon-facebook-16.png") no-repeat top left;
-	width: 16px;
-	height: 16px;
+	height: 17px;
 }
 
 .container-fluid {
@@ -52,10 +59,11 @@ body {
 	font-size: 15px;
 	vertical-align: middle;
 	margin-bottom: 2px;
+	line-height: 18px;
 }
 
 .header-image {
-	background-image: url(../img/jumbotron-bkg.jpg);
+	background-image: url(../img/jumbotron-bkg-small.jpg);
 	background-size: cover;
 	height: 256px;
 }
@@ -74,6 +82,7 @@ body {
 .navbar li a {
 	color: white !important;
 	font-size: 22px;
+	line-height: 30px;
 }
 
 #header-text{
