@@ -11,10 +11,14 @@ $( document ).ready(function() {
 });
 
 
-function importHtml(){
+function importHtml()
+{
 	if( $("#header") ){
 		$("#header").load( "header.html" );
 	};
+  if( $("#menubar") ){
+    $("#menubar").load( "menubar.html" );
+  };
 	if ( $("#footer") ) {
 		$("#footer").load( "footer.html" );
 	};

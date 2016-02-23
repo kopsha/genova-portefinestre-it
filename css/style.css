@@ -66,23 +66,37 @@ body {
 	background-image: url(../img/jumbotron-bkg-small.jpg);
 	background-size: cover;
 	height: 256px;
-}
 
-.menubar {
-	height: 30px;
+	position: relative;
+	top: -50px;
+	z-index: -3;	
 }
 
 .navbar {
 	background-color: #292929;
 	border-radius: 0;
 	border-color: #292929;
+	min-height: 40px;
 	height: 60px;
 }
 
+
 .navbar li a {
 	color: white !important;
-	font-size: 22px;
-	line-height: 30px;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+
+.dropdown-menu > li {
+	background-color: #292929;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+	background-color: #696969;
 }
 
 #header-text{
@@ -90,18 +104,12 @@ body {
 	top: 3vh;
 	color: #428dd1;
 }
-#logo{
+#logo {
 	margin-top: 1vh;
 	margin-bottom: 3vh;
 	height: 15vh;
 	margin-left: 4vw;
 }
-
-.navbar-nav > li > .dropdown-menu {
-    background-color: rgba(255,255,255,.8);
-}
-
-
 
 #window-products{
 	margin-top: 30px;
@@ -174,6 +182,7 @@ body {
 	top: 3vh;
 	min-height: 8vh;
 }
+
 #contatti-title-box h1{
 	color: white;
 	text-shadow: 1px 0px 4px rgba(0,0,0,.9);
@@ -194,11 +203,13 @@ body {
 	color: #428dd1;
 	text-shadow: 1px 0px 4px rgba(0,0,0,.2);
 }
+
 .contatti-content{
 	position: relative;
 	top: 20vh;
 }
- #map {
+
+#map {
 	width: 20vw;
 	height: 40vh;
 }
@@ -210,7 +221,8 @@ ul[role="tablist"]{
 ul[role="tablist"] a{
 	color: rgba(0,0,0,.6);
 }
-.content{
+
+.content {
 	float: right;
 	margin-top: -120px;
 }
