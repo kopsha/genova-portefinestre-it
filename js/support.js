@@ -25,22 +25,35 @@ function importHtml()
     if ($("#garanzia")) {
         $("#garanzia").load( "garanzia.html" );
     };
-	if ($("#footer")) {
-		$("#footer").load( "footer.html" );
-	};
-	if($("#map")) {
-        initialize();
-    }
+    if ($("#informazioni")) {
+        $("#informazioni").load( "informazioni.html" );
+    };
+    if ($("#parteneri")) {
+        $("#parteneri").load( "parteneri.html" );
+    };
+	if($("#carta")) {
+        $("#carta").load( "carta.html" );
+        google.maps.event.addDomListener(window, 'load', initializeMap);
+    };
+    if ($("#footer")) {
+        $("#footer").load( "footer.html" );
+    };
 }
 
- function initialize() {
-  var mapCanvas = document.getElementById('map');
-  var mapOptions = {
-    center: new google.maps.LatLng(46.770480, 23.586600),
-    zoom: 8,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
-  }
-  var map = new google.maps.Map(mapCanvas, mapOptions)
+function initializeMap() {
+    var mapCanvas = document.getElementById('map_canvas');
+    var position = new google.maps.LatLng( 44.4256641,8.8510063 );
+    var mapOptions = {
+        center: position,
+        zoom: 16,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    var map = new google.maps.Map(mapCanvas, mapOptions)
+    var marker = new google.maps.Marker({
+        position: position,
+        map: map,
+        title:"Porte Finestre"
+    });  
 
-  google.maps.event.addDomListener(window, 'load', initialize);
+    // google.maps.event.addDomListener(window, 'load', initializeMap);
 }
