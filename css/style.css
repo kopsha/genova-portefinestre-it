@@ -17,10 +17,10 @@ body {
 
 .logo-color {
 	display: inline-block;
-	background: url("../img/logo-color.png") no-repeat;
+	background: url("../img/logo.png") no-repeat;
 	background-position: left bottom;
-	width: 244px;
-	height: 105px;
+	width: 254px;
+	height: 100px;
 }
 
 .icon-phone {
@@ -50,7 +50,7 @@ body {
 	padding-left: 13px;
 	padding-right: 13px;
 
-	background-color: #434752;
+	background-color: #363548;
 	color: white;
 	border-radius: 0;
 }
@@ -73,16 +73,23 @@ body {
 }
 
 .navbar {
-	background-color: #292929;
+	background-color: #363548;
 	border-radius: 0;
-	border-color: #292929;
+	border-color: #363548;
 	min-height: 40px;
 	height: 60px;
 }
 
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+	color: #009246;
+}
 
-.navbar li a {
-	color: white !important;
+.navbar-default .navbar-nav > li > a {
+	color: white;
 	font-size: 18px;
 	line-height: 28px;
 }
@@ -92,17 +99,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .dropdown-menu > li {
-	background-color: #292929;
 }
 
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
-	background-color: #696969;
 }
 
-#header-text{
-	position: relative;
-	top: 3vh;
-	color: #428dd1;
+#header h4 {
+	font-size: 16pt;
 }
 #logo {
 	margin-top: 1vh;
@@ -120,10 +123,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	border-color: white;
 }
 
-.row-photos{
-	padding-left: 3vw;
-	margin-top: 4vh;
+.row-photos p {
+	max-width: 303px;
+	color: #888888;
 }
+
 #footer {
 	background-color: #6d8491;
 	border-top: 1px solid #EEEEEE;	
@@ -148,72 +152,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	vertical-align: middle;
 }
 
-#garanzia-title-box{
-	background-color: rgb(66,141,209);
-	float: none;
-	top: 3vh;
-	min-height: 8vh;
-}
-#garanzia-title-box h1{
-	color: white;
-	text-shadow: 1px 0px 4px rgba(0,0,0,.9);
-}
-
-#garanzia-container{
-	background-color: rgba(109,132,145,.25);
-    background: -webkit-linear-gradient(rgba(109,132,145,.25), white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(rgba(109,132,145,.25), white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(rgba(109,132,145,.25), white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(rgba(109,132,145,.25), white); /* Standard syntax */
-}
-#garanzia-content{
-	position: relative;
-	top: 5vh;
-	margin-bottom: 70vh;
-}
-#garanzia-content p{
-	color: #428dd1;
-	text-shadow: 1px 0px 4px rgba(0,0,0,.2);
-}
-
-#contatti-title-box{
-	background-color: rgb(66,141,209);
-	float: none;
-	top: 3vh;
-	min-height: 8vh;
-}
-
-#contatti-title-box h1{
-	color: white;
-	text-shadow: 1px 0px 4px rgba(0,0,0,.9);
-}
-
-
-#contatti-container{
-	background-color: rgba(109,132,145,.25);
-    background: -webkit-linear-gradient(rgba(109,132,145,.25), white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(rgba(109,132,145,.25), white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(rgba(109,132,145,.25), white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(rgba(109,132,145,.25), white); /* Standard syntax */
-    position: relative;
-	margin-bottom: 60vh;
-}
-
-#contatti-container p{
-	color: #428dd1;
-	text-shadow: 1px 0px 4px rgba(0,0,0,.2);
-}
-
-.contatti-content{
-	position: relative;
-	top: 20vh;
-}
-
-#map {
-	width: 20vw;
-	height: 40vh;
-}
-
 ul[role="tablist"]{
 	float: left;
 
@@ -225,4 +163,15 @@ ul[role="tablist"] a{
 .content {
 	float: right;
 	margin-top: -120px;
+}
+
+
+#garanzia ul {
+	color: #009246;
+	font-size: 14pt;
+}
+
+#garanzia ul p{
+	color: white;
+	font-size: 14pt;
 }

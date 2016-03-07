@@ -13,18 +13,24 @@ $( document ).ready(function() {
 
 function importHtml()
 {
-	if( $("#header") ){
-		$("#header").load( "header.html" );
-	};
-  if( $("#menubar") ){
-    $("#menubar").load( "menubar.html" );
-  };
-	if ( $("#footer") ) {
+    if ($("#header")) {
+        $("#header").load( "header.html" );
+    };
+    if ($("#menubar")) {
+        $("#menubar").load( "menubar.html" );
+    };
+    if ($("#prodotti")) {
+        $("#prodotti").load( "prodotti.html" );
+    };
+    if ($("#garanzia")) {
+        $("#garanzia").load( "garanzia.html" );
+    };
+	if ($("#footer")) {
 		$("#footer").load( "footer.html" );
 	};
-	if($("#map")){
+	if($("#map")) {
         initialize();
-	}
+    }
 }
 
  function initialize() {
