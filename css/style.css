@@ -44,7 +44,7 @@ body {
 	background: url("../img/icon-pdf-16.png") no-repeat;
 	background-position: left bottom;
 	width: 16px;
-	height: 17px;
+	height: 18px;
 }
 
 .container-fluid {
@@ -117,6 +117,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .dropdown-menu > li {
+	font-size: 16px;
 }
 
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
