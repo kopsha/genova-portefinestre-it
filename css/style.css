@@ -17,9 +17,17 @@ body {
 
 .logo-color {
 	display: inline-block;
-	background: url("../img/logo.png") no-repeat;
+	background: url("../img/logo-original.png") no-repeat;
 	background-position: left bottom;
 	width: 254px;
+	height: 100px;
+}
+
+.logo-color-test {
+	display: inline-block;
+	background: url("../img/logo.png") no-repeat;
+	background-position: left bottom;
+	width: 198px;
 	height: 100px;
 }
 

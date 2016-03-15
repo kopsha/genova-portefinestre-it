@@ -16,6 +16,9 @@ function importHtml()
     if ($("#header")) {
         $("#header").load( "header.html" );
     };
+    if ($("#header-t")) {
+        $("#header-t").load( "header-t.html" );
+    };
     if ($("#menubar")) {
         $("#menubar").load( "menubar.html" );
     };
