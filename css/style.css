@@ -20,14 +20,14 @@ body {
 	background: url("../img/logo-original.png") no-repeat;
 	background-position: left bottom;
 	width: 254px;
-	height: 100px;
+	height: 104px;
 }
 
 .logo-color-test {
 	display: inline-block;
 	background: url("../img/sigla-export-2.png") no-repeat;
 	background-position: left bottom;
-	width: 245px;
+	width: 254px;
 	height: 104px;
 }
 
@@ -128,7 +128,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
 }
 
-#header h4 {
+#header h4,
+#header-t h4 {
 	font-size: 16pt;
 }
 #logo {
