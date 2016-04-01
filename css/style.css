@@ -23,14 +23,6 @@ body {
 	height: 104px;
 }
 
-.logo-color-test {
-	display: inline-block;
-	background: url("../img/sigla-export-2.png") no-repeat;
-	background-position: left bottom;
-	width: 254px;
-	height: 104px;
-}
-
 .bottom-column
 {
     float: none;
